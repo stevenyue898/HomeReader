@@ -9,4 +9,6 @@ modify /conf/app.conf set home=/xxx/xx
 
 support .pdf and .epub files online render
 
+homereader is a binary linux x64 , run as : nohup ./homereader &
+
 
