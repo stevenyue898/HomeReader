@@ -12,6 +12,7 @@ support .pdf and .epub files online render
 homereader is a binary linux x64 , run as : nohup ./homereader &
 
 =================================================================
+
 以下是中文说明：
 本程序是私人用于铁威马F220共享NAS电子书，提供浏览器在线浏览硬盘PDF和EPUB电子书。
 程序用Go写成，后端使用了beego(https://github.com/astaxie/beego),前端使用PDF.js（https://github.com/mozilla/pdf.js），EPUB.js(https://github.com/futurepress/epub.js)。
