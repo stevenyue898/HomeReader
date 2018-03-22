@@ -14,7 +14,7 @@ now support .pdf and .epub files online render
 homereader is a binary execute file for linux x64 , run as : nohup ./homereader &
 
 use your browser to view :
-  http://xxx.xxx.xxx.xxx:<port>
+  http://xxx.xxx.xxx.xxx:port
 
 =================================================================
 
@@ -31,7 +31,7 @@ use your browser to view :
 NAS服务器运行: $> nohup ./homereader &
 
 使用PC或平板浏览器访问 。
-  http://xxx.xxx.xxx.xxx:<port>
+  http://xxx.xxx.xxx.xxx:port
 
 目前编译版本为Linux X64平台 ，浏览器测试 chrome。
 
