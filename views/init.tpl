@@ -89,16 +89,20 @@
                      //alert("type: "+_type+" ; URL: "+_url);
                      if (_type=="EPUB")
                      {
-						 $("#tab-content").empty()
-						 var content =  ' <div id="epub"> <div id="prev" onclick="Book.prevPage();" class="arrow">‹</div><div id="area" ></div> <div id="next" onclick="Book.nextPage();" class="arrow">›</div> </div>';
+								 $("#tab-content").empty()
+						 
+						 var content =  '<iframe  src="/epub/reader/index.html?bookPath=' + encodeURI(_url) + '" width="100%" height="100%" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="yes"  allowtransparency="yes" id="iframe_epub" ></iframe>';
  				         $("#tab-content").append(content);
-						 var ifm= $("#area");
-						 ifm.css("top", "10px"); 
-                         ifm.height($(window).height()-10);
-                         Book = ePub(_url);
+						 var ifm= document.getElementById("iframe_epub");
+                         ifm.height=document.documentElement.clientHeight;
+						 //var ifm= $("#area");
+						 //ifm.css("top", "10px"); 
+                         //ifm.height($(window).height()-10);
+                         //Book = ePub(_url);
                          //alert(_url);
-	                     Book.renderTo("area");
+	                     //Book.renderTo("area");
 	                     $(".toggler").click();
+						//$(".stoggler").css("border-color","#000");
 						 return;
 					 }
                     if (_type=="PDF")
