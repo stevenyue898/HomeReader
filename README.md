@@ -42,4 +42,4 @@ NAS服务器运行: $> nohup ./homereader &
 
 作者 steven yue kass307@qq.com 2017-09
 
-
+2018.6 epub 改为epub.js reader ，更改/views/init.tpl即可。
