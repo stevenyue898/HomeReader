@@ -18,6 +18,7 @@ use your browser to view :
   http://xxx.xxx.xxx.xxx:port
 
 2018.7 now abandon beego ,rewrite used iris-go ,add mp4 movie play by video.js 
+
   tar zxvf homereader.x64.linux.0.2.iris.tar.gz 
 
 =================================================================
