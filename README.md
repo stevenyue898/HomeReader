@@ -17,6 +17,9 @@ homereader is a binary execute file for linux x64 , run as : nohup ./homereader 
 use your browser to view :
   http://xxx.xxx.xxx.xxx:port
 
+2018.7 now abandon beego ,rewrite used iris-go ,add mp4 movie play by video.js 
+  tar zxvf homereader.x64.linux.0.2.iris.tar.gz 
+
 =================================================================
 
 以下是中文说明：
@@ -43,3 +46,4 @@ NAS服务器运行: $> nohup ./homereader &
 作者 steven yue kass307@qq.com 2017-09
 
 2018.6 epub 改为epub.js reader ，更改/views/init.tpl即可。
+2018.7 homereader.x64.linux.0.2.iris.tar.gz 打包下载（用Iris-go重写，加入video.js 支持mp4 mkv播放）
