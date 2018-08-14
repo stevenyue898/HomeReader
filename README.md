@@ -24,10 +24,10 @@ use your browser to view :
 =================================================================
 
 以下是中文说明：
-本程序编写原先是本人自用于铁威马F220共享NAS(Linux x64平台都可使用)，方便PC或平板通过浏览器在线浏览NAS硬盘PDF和EPUB电子书，后来发现nextCloud实现ebook预览和我实现很像。
+本程序编写原先初衷是本人自用于铁威马F220 NAS平台(Linux x64平台都可使用)，方便PC或平板通过浏览器在线浏览NAS硬盘里PDF和EPUB电子书，后来发现nextCloud早就实现。
 
-程序用Go写成，后端使用了beego(https://github.com/astaxie/beego),
-前端浏览器预览使用PDF.js（https://github.com/mozilla/pdf.js），EPUB.js(https://github.com/futurepress/epub.js)。
+程序用Go写成，后端使用了beego(https://github.com/astaxie/beego),后因为增加了mp4播放功能，用iris-go重写。
+前端浏览器预览使用PDF.js（https://github.com/mozilla/pdf.js），EPUB.js(https://github.com/futurepress/epub.js)。video.js
 
 使用：
 
